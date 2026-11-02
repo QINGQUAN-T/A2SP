@@ -33,7 +33,7 @@ Closed forms in this package: `b1(b0; α) = 2(b0^(α/2) − b0)/(2 − α)`, Car
 ## Install (≈ 2 minutes)
 
 ```bash
-git clone https://github.com/QINGQUAN-T/A2SP.git
+git clone https://github.com/QINGQUAN-T/A2SP.git 
 cd A2SP
 pip install -r requirements.txt   # everything: numpy + matplotlib (examples plot figures)
 # or, library only (numpy alone; matplotlib is an optional extra):
