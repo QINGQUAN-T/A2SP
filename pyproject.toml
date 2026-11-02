@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a2sp"
+version = "0.1.0"
+description = "A2SP — Asymmetric Two-Step Pairing framework toolkit: one pairing kernel, any domain"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Qingquan Tang", email = "qqtang@wtu.edu.cn" }]
+keywords = [
+  "A2SP",
+  "asymmetric two-step pairing",
+  "step-growth polymerization",
+  "kinetic asymmetry",
+  "rumour spreading",
+  "Maki-Thompson",
+  "exact solutions",
+  "carrier-factor cancellation",
+]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+# the library itself needs numpy only; matplotlib is used by examples/ and plots
+examples = ["matplotlib>=3.5"]
+
+[project.urls]
+Homepage = "https://github.com/QINGQUAN-T/A2SP"
+
+[tool.setuptools.packages.find]
+include = ["a2sp*"]

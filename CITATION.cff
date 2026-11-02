@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use A2SP, please cite it using this metadata, together with the papers referenced in the README."
+title: "A2SP: Asymmetric Two-Step Pairing framework toolkit"
+version: v0.1.0
+authors:
+  - family-names: Tang
+    given-names: Qingquan
+    affiliation: "Wuhan Textile University"
+    email: qqtang@wtu.edu.cn
+abstract: >-
+  Reference implementation of the Asymmetric Two-Step Pairing (A2SP) framework:
+  one pairing kernel, any domain. Every A2SP channel rate carries a common
+  carrier factor that cancels exactly in the reduced trajectory equations
+  dY/dX = -1 + kappa*Y/X (resonance line kappa = 1), leaving closed-form,
+  fit-free laws. The kernel source is the unified theory of generalized
+  step-growth polymerization; the first application is two-stage rumor
+  spreading (Maki-Thompson). Includes two runnable examples (rumor model with
+  network cascade; step-growth polymerization core), 53 regression tests
+  (23 published-anchor), and stochastic engines (Gillespie well-mixed with pair
+  self-correction; configuration-model network CTMC).
+keywords:
+  - A2SP
+  - asymmetric two-step pairing
+  - step-growth polymerization
+  - kinetic asymmetry
+  - rumour spreading
+  - Maki-Thompson
+  - exact solutions
+license: MIT
+# After the first Zenodo release (tag v0.1.0), uncomment and fill:
+# doi: "10.5281/zenodo.XXXXXXX"   # <- fill after the first Zenodo release
+references:
+  - title: "A Unified Theory for Generalized Step-Growth Polymerization: From Flory's Equal-Reactivity to Kinetic Symmetry-Breaking"
+    type: article
+    authors:
+      - family-names: Tang
+        given-names: Qingquan
+    doi: 10.26434/chemrxiv.15009468/v1
+    notes: "Kernel source (JACS submission; ChemRxiv preprint)."
+  - title: "Terminal-state theorems for a two-stage Maki-Thompson rumor model: final size, stifler composition, and non-identifiability from pooled statistics"
+    type: article
+    authors:
+      - family-names: Tang
+        given-names: Qingquan
+    identifier: arXiv:2610.41206
+    notes: "First application (arXiv preprint)."
+# preferred-citation:
