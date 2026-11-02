@@ -104,7 +104,7 @@ PUBLISH.md            maintainer checklist (GitHub + Zenodo release chain)
 
 ## How to cite
 
-See `CITATION.cff`. Please cite the toolkit's Zenodo DOI (minted on first release) together with the theory paper (step-growth polymerization unified theory, ChemRxiv preprint above) and/or the first application (arXiv:2610.41206).
+See `CITATION.cff`. Please cite the toolkit's Zenodo DOI (10.5281/zenodo.23883289) together with the theory paper (step-growth polymerization unified theory, ChemRxiv preprint above) and/or the first application (arXiv:2610.41206).
 
 ## License
 
