@@ -27,8 +27,7 @@ keywords:
   - Maki-Thompson
   - exact solutions
 license: MIT
-# After the first Zenodo release (tag v0.1.0), uncomment and fill:
-# doi: "10.5281/zenodo.23883289"   # <- fill after the first Zenodo release
+doi: 10.5281/zenodo.23883289
 references:
   - title: "A Unified Theory for Generalized Step-Growth Polymerization: From Flory's Equal-Reactivity to Kinetic Symmetry-Breaking"
     type: article
